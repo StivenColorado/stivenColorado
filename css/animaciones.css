@@ -1,0 +1,192 @@
+@keyframes zoomM {
+    from {
+        background-size: 100%
+    }
+
+    to {
+        background-size: 110%
+    }
+}
+
+@keyframes fade-rigth {
+    from {
+        transform: translateX(-1000px);
+        opacity: 0
+    }
+
+    to {
+        transform: translateX(0)
+    }
+}
+
+@keyframes btnNav {
+    from {
+        transform: scale(1);
+        transform: rotate(0)
+    }
+
+    to {
+        transform: scale(1);
+        transform: rotate(180deg);
+        filter: invert(1)
+    }
+}
+
+@keyframes deslizarSkillMostrar {
+    from {
+        opacity: 0;
+        margin-top: -9999px;
+        margin-left: 9999px
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0;
+        margin-left: 0
+    }
+}
+
+@keyframes deslizarSkilOcultar {
+    from {
+        opacity: 1;
+        margin-top: 0;
+        margin-left: 0
+    }
+
+    to {
+        opacity: 0;
+        margin-top: -9999px;
+        margin-left: 9999px
+    }
+}
+
+@keyframes barrasColores {
+    from {
+        margin-left: -2000px;
+        opacity: 0
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 0
+    }
+}
+
+@keyframes barrasSinColores {
+    from {
+        opacity: 1;
+        margin-left: 0
+    }
+
+    to {
+        margin-left: -2000px;
+        opacity: 0
+    }
+}
+
+@keyframes designClipShow {
+    from {
+        clip-path: circle(0% at bottom right)
+    }
+
+    to {
+        clip-path: circle(150% at bottom right)
+    }
+}
+
+@keyframes designClipHidde {
+    from {
+        clip-path: circle(150% at bottom right)
+    }
+
+    to {
+        clip-path: circle(0% at bottom right)
+    }
+}
+
+@keyframes openNav {
+    from {
+        left: 50%;
+        width: 0%;
+        top: 0;
+        height: 0;
+        z-index: -20;
+        clip-path: circle(0% at center center);
+        margin-left: -9999px
+    }
+
+    to {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 650px;
+        z-index: 15;
+        background-color: rgba(163, 74, 144, .836);
+        clip-path: circle(90% at center center);
+        margin-left: 0
+    }
+}
+
+@keyframes closeNav {
+    from {
+        left: 0;
+        top: 0;
+        width: 80%;
+        height: 650px;
+        z-index: 15;
+        background-color: rgba(163, 74, 144, .836);
+        clip-path: circle(90% at center center);
+        margin-left: 0
+    }
+
+    to {
+        left: 50%;
+        width: 0%;
+        height: 0;
+        z-index: -20;
+        clip-path: circle(0% at center center);
+        margin-left: -9999px
+    }
+}
+
+@keyframes deslizarAbajoOpciones {
+    from {
+        margin-top: -5000px;
+        height: 0%
+    }
+
+    to {
+        margin-top: 0;
+        height: 100%
+    }
+}
+
+@keyframes deslizarArribaOpciones {
+    from {
+        height: 100%
+    }
+
+    to {
+        height: 0%
+    }
+}
+
+@keyframes virarClose {
+    from {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(810deg)
+    }
+}
+
+@keyframes virarOpen {
+    from {
+        transform: rotate(810deg)
+    }
+
+    to {
+        transform: rotate(0)
+    }
+}

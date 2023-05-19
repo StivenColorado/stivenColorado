@@ -1,0 +1,558 @@
+@media (min-width:1400px) {
+
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        height: 700px
+    }
+
+    .container2,
+    .container3,
+    .container4 {
+        top: 930px
+    }
+}
+
+@media (max-width:1150px) {
+    footer {
+        width: 100%;
+        left: 0;
+        top: 750px;
+    }
+
+    .container1 {
+        width: 100%;
+        height: 600px;
+        left: 0;
+        top: 0;
+        border-radius: 0
+    }
+
+    .btn_theme {
+        width: 4%
+    }
+
+    .container2,
+    .container3,
+    .container4 {
+        width: 100%;
+        left: 0;
+        top: 760px
+    }
+
+    .sliderText {
+        left: 5%;
+        width: 35%
+    }
+
+    .img::before {
+        background-position: center;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-color: transparent
+    }
+
+    .c2,
+    .c5,
+    .c6,
+    .c7,
+    .c8 {
+        font-size: 50px
+    }
+
+    .c1,
+    .c3,
+    .c4 {
+        font-size: 70px
+    }
+}
+
+@media (max-width:915px) {
+    footer {
+        top: 720px;
+    }
+
+    .title_slider_texts {
+        height: 40%
+    }
+
+    .btn_theme {
+        left: 2%;
+        width: 5%
+    }
+
+    .sliderText {
+        bottom: 18%;
+        width: 40%;
+        left: 2.5%
+    }
+
+    .container2,
+    .container3,
+    .container4 {
+        top: 720px
+    }
+
+    .contentImg {
+        width: 50%;
+        height: 100%;
+        top: 0;
+        left: 0
+    }
+
+    #aboutMe {
+        top: 8%;
+        left: 52.5%
+    }
+
+    .Contentainer2 {
+        bottom: 15%;
+        left: 52.5%;
+        height: 40%
+    }
+
+    .text3,
+    .textSkills {
+        width: 50%;
+        height: 100%;
+        top: 0
+    }
+
+    .Contentainer2 .text::after {
+        bottom: -22%
+    }
+
+    .Contentainer2 .text::before {
+        top: -15%
+    }
+
+    .container3 {
+        overflow: hidden
+    }
+
+    .text3 {
+        left: 0
+    }
+
+    .textSkills {
+        right: 0
+    }
+}
+
+@media (max-width:890px) {
+
+    #aboutMe,
+    .c2,
+    .c6,
+    .c7 {
+        font-size: 50px;
+        letter-spacing: 5px
+    }
+
+    .seccionContacto {
+        width: 90%
+    }
+
+    .skillBar {
+        width: 100%;
+        left: 0
+    }
+}
+
+@media (max-width:800px) {
+    .btn_theme {
+        width: 6%
+    }
+}
+
+@media (max-width:715px) {
+    footer {
+        height: 300px;
+        top: 700px;
+    }
+
+    .contenedor-contenido-padre {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .contenedor-design,
+    .contenedor-glosario {
+        width: 100%;
+        height: 50%;
+        flex: 1 1;
+    }
+
+    .lista-footer {
+        flex-direction: row;
+        font-size: 15px;
+    }
+
+    .footer-derechos {
+        height: 20%;
+    }
+
+    .texto-footer a {
+        font-size: 12px;
+    }
+
+    .img,
+    .navbar {
+        border-radius: 0
+    }
+
+    .btn_theme {
+        width: 10%
+    }
+
+    .navbar {
+        height: 15%;
+        z-index: 11
+    }
+
+    .options {
+        display: none
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0
+    }
+
+    .contenedores {
+        width: 80%;
+        left: 10%;
+        height: 40%;
+        top: 20%
+    }
+
+    .c1,
+    .c3,
+    .c4 {
+        font-size: 120px
+    }
+
+    .c2,
+    .c5,
+    .c6,
+    .c7,
+    .c8 {
+        font-size: 80px
+    }
+
+    .sliderText {
+        height: 22%;
+        width: 60%;
+        bottom: 10%;
+        left: 20%;
+        z-index: 10;
+        background-color: var(--aboutMeBg)
+    }
+
+    .content_slider_text,
+    .title_slider_texts {
+        font-size: 30px
+    }
+
+    .nameNav {
+        width: 25%
+    }
+
+    .container2,
+    .container4 {
+        top: 700px;
+        height: 600px
+    }
+
+    .contentContainer4,
+    .contentImg {
+        width: 100%
+    }
+
+    #aboutMe,
+    .Contentainer2 {
+        width: 80%;
+        left: 10%
+    }
+
+    .Contentainer2 {
+        bottom: 10%
+    }
+
+    .Contentainer2 .text {
+        font-size: 26px
+    }
+
+    .container3 {
+        height: 1400px
+    }
+
+    .text3,
+    .textSkills {
+        height: 50%;
+        width: 100%
+    }
+
+    .text3 {
+        left: 0
+    }
+
+    .skillBar .skills {
+        width: 70%
+    }
+
+    .textSkills {
+        position: absolute;
+        top: 50%
+    }
+
+    .skillTitle {
+        font-size: 60px;
+        letter-spacing: 10px
+    }
+
+    .textContentContainer4 {
+        width: 100%;
+        left: 0
+    }
+
+    .contentContact {
+        clip-path: circle(150%)
+    }
+
+    .seccionContacto {
+        height: 40%;
+        width: 70%
+    }
+
+    .seccionContacto .iconSeccion {
+        width: 15%
+    }
+
+    .face {
+        height: 140%;
+        background-size: 30%
+    }
+
+    #open,
+    .iconOpen,
+    .navbarPhone {
+        display: flex
+    }
+}
+
+@media (max-width:690px) {
+    footer {
+        top: 640px;
+    }
+
+    .btn_theme {
+        left: -4%;
+        width: 12%
+    }
+
+    .content_slider_text {
+        font-size: 25px
+    }
+
+    .c4,
+    .c6 {
+        font-size: 80px
+    }
+
+    .container2,
+    .container3,
+    .container4 {
+        top: 650px
+    }
+
+    #nube {
+        background-size: 50%;
+        top: 5%
+    }
+}
+
+@media (max-width:560px) {
+    footer {
+        height: 300px;
+        top: 650px;
+    }
+
+    footer>div {
+        flex-direction: row;
+        height: 40%;
+    }
+
+    .lista-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .texto-footer>a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .contenedor-glosario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-contenido-padre {
+        height: 50%;
+    }
+
+    .c2,
+    .c5,
+    .c6,
+    .c7,
+    .c8 {
+        font-size: 70px;
+        letter-spacing: 0
+    }
+
+    #aboutMe {
+        width: 90%;
+        left: 5%;
+        top: 5%;
+        height: 30%
+    }
+
+    .Contentainer2 {
+        height: 55%;
+        bottom: 7%
+    }
+
+    .container3 {
+        height: 1000px
+    }
+
+    .contenedores {
+        top: 30%;
+        height: 200px;
+        width: 95%;
+        left: 3.5%
+    }
+
+    .nameNav {
+        width: 40%
+    }
+
+    .sliderText {
+        width: 80%;
+        left: 10%
+    }
+
+    .skillTitle {
+        font-size: 40px
+    }
+
+    .seccionContacto .iconSeccion {
+        background-size: 60%;
+        width: 20%
+    }
+
+    .seccionContacto {
+        width: 80%
+    }
+
+    #correo {
+        font-size: 17px
+    }
+}
+
+@media (max-width:520px) {
+    .btn_theme {
+        left: -4%;
+        width: 15%
+    }
+
+    .Contentainer2 {
+        width: 95%;
+        left: 2.5%
+    }
+
+    .c2,
+    .c5,
+    .c6,
+    .c7,
+    .c8 {
+        letter-spacing: 2px
+    }
+
+    #long1,
+    #long2 {
+        font-size: 32px
+    }
+}
+
+@media (max-width:420px) {
+    .btn_theme {
+        left: -4%;
+        width: 16%
+    }
+
+    .c1,
+    .c3,
+    .c4 {
+        font-size: 80px
+    }
+
+    #aboutMe {
+        left: 0;
+        top: 0;
+        width: 100%;
+        border-radius: 0
+    }
+
+    .Contentainer2 {
+        left: 0;
+        height: 65%;
+        bottom: 0;
+        width: 100%
+    }
+
+    .copy {
+        top: 4%;
+        height: 10%;
+        width: 30%;
+        font-size: 18px;
+        letter-spacing: 2px;
+        z-index: 15
+    }
+
+    .skillBar .skills {
+        width: 85%
+    }
+}
+
+@media (max-width:322px) {
+    span .iconOpen {
+        position: absolute;
+        top: 0;
+        right: 0
+    }
+
+    .btn_theme {
+        width: 12%;
+        height: 40%;
+        top: 30%
+    }
+    footer{
+        top:600px;
+    }
+}
