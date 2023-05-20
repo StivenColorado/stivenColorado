@@ -12,9 +12,18 @@
     .container4 {
         top: 930px
     }
+    footer{
+        top:930px;
+    }
 }
 
 @media (max-width:1150px) {
+    .contenedor-slider{
+        height: 70%;
+    }
+    .slider{
+        height: 100%;
+    }
     footer {
         width: 100%;
         left: 0;
@@ -161,6 +170,13 @@
 }
 
 @media (max-width:800px) {
+    .slider-descripcion > h1{
+        width: 100%;
+    }
+    .slider-descripcion > p{
+        width: 95%;
+        text-align: justify;
+    }
     .btn_theme {
         width: 6%
     }
@@ -171,12 +187,22 @@
         height: 300px;
         top: 700px;
     }
-
     .contenedor-contenido-padre {
         flex-direction: column;
         height: 80%;
     }
-
+    .slider{
+        flex-direction: column-reverse;
+    }
+    .slider-media , .slider-descripcion    {
+        width: 90%;
+    }
+    .contenedor-slider-portafolio > h1{
+        top: 20%;
+    }
+    .contenedor-slider{
+        height: 60%;
+    }
     .contenedor-design,
     .contenedor-glosario {
         width: 100%;
@@ -476,6 +502,12 @@
 }
 
 @media (max-width:520px) {
+    .slider-media, .slider-descripcion{
+        width: 100%;
+    }
+    .slider-descripcion > h1{
+        font-size: 30px;
+    }
     .btn_theme {
         left: -4%;
         width: 15%
@@ -505,27 +537,23 @@
         left: -4%;
         width: 16%
     }
-
     .c1,
     .c3,
     .c4 {
         font-size: 80px
     }
-
     #aboutMe {
         left: 0;
         top: 0;
         width: 100%;
         border-radius: 0
     }
-
     .Contentainer2 {
         left: 0;
         height: 65%;
         bottom: 0;
         width: 100%
     }
-
     .copy {
         top: 4%;
         height: 10%;
@@ -534,7 +562,6 @@
         letter-spacing: 2px;
         z-index: 15
     }
-
     .skillBar .skills {
         width: 85%
     }
