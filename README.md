@@ -1,6 +1,5 @@
 <div align="center">
-  <img height="150" src="![image](https://github.com/StivenColorado/stivenColorado/assets/90488682/7163ea60-759c-4f1f-b40e-8d3920a88c3c)
-"  />
+  <img height="150" src="https://i.pinimg.com/564x/b4/1a/8a/b41a8acccf85813efcddf1d93061ecc6.jpg"  />
 </div>
 
 ###
@@ -61,6 +60,6 @@
 
 ###
 
-<h3 align="left">🔥 **My Stats:**<br><br>- 💻Contributions: 569 in the last year<br>- ✉️ Commits: 73 in 9 repositories<br>- 🥤Opened Pull Requests: 8 in 6 repositories</h3>
+<h3 align="left">🔥 My Stats:<br><br>- 💻Contributions: 569 in the last year<br>- ✉️ Commits: 73 in 9 repositories<br>- 🥤Opened Pull Requests: 8 in 6 repositories</h3>
 
 ###
