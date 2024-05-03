@@ -60,6 +60,6 @@
 
 ###
 
-<h3 align="left">🔥 My Stats:<br><br>- 💻Contributions: 569 in the last year<br>- ✉️ Commits: 73 in 9 repositories<br>- 🥤Opened Pull Requests: 8 in 6 repositories</h3>
+<h3 align="left">🔥 My Stats:<br><br>- 💻Contributions: 637 in the last year<br>- ✉️ Commits: 73 in 9 repositories<br>- 🥤Opened Pull Requests: 8 in 6 repositories</h3>
 
 ###
