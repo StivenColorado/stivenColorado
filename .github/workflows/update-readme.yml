@@ -1,0 +1,45 @@
+name: Update README stats
+
+on:
+  schedule:
+    # Todos los días a las 04:17 UTC
+    - cron: "17 4 * * *"
+  workflow_dispatch: {}        # permite ejecutarlo manualmente desde la pestaña Actions
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+# Evita ejecuciones solapadas
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update snapshot block
+        run: node scripts/update-readme.mjs
+        env:
+          # Usa un PAT (secret METRICS_TOKEN) si existe para incluir commits privados;
+          # si no, cae al GITHUB_TOKEN del repo (solo públicos).
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update README stats [skip ci]"
+          git push
